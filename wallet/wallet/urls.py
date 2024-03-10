@@ -21,5 +21,5 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('show/', include('crypto_wallet.urls')),
+    path('', include('crypto_wallet.urls')),
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
