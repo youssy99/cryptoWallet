@@ -101,7 +101,7 @@ def program(scelta):
 				variazione=Fore.GREEN+f"{variazione}%"+Fore.RESET
 			else:
 				variazione=Fore.RED+f"{variazione}%"+Fore.RESET
-			print(f"{row[0]}:\n\tquantita:{row[1]}\n\tvalore all'acquisto acquisto: {row[2]}€\n\tvalore corrente: {actualPrice}€\n\tVariazione:{variazione}")
+			print(f"{row[0]}:\n\tquantita:{row[1]}\n\tvalore all'acquisto: {row[2]}€\n\tvalore corrente: {actualPrice}€\n\tVariazione:{variazione}")
 			names.append(row[0])
 			prices.append(actualPrice)
 			totOld+=float(row[2])
