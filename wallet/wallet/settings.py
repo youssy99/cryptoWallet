@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://cryptowallet99-b15a9d1a04a0.herokuapp.com/","127.0.0.1"]
+ALLOWED_HOSTS = [".herokuapp.com","127.0.0.1"]
 
 
 # Application definition
